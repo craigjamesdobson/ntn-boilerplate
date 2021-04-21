@@ -11,6 +11,8 @@ You can add an excerpt easily by writing `<!--MORE-->` in lowercase in the conte
 
 Then continue on with the rest of the **markdown** content.
 
+![](/img/1265.jpg)
+
 ```js{4,7}\[posts.vue]
 computed: {
   placeholderClasses() {
