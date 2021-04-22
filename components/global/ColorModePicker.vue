@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-0 right-0 m-3">
+  <div class="fixed top-0 right-0 m-4">
     <component
       :is="`icon-${color}`"
       @click="changeColorMode"
