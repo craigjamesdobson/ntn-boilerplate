@@ -79,7 +79,7 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-    - label: "Home Page"
+      - label: "Home Page"
         name: "Home"
         file: "site/content/home.yml"
         fields:
@@ -91,7 +91,7 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Address, name: address, widget: string}
-      - label: "About Page"
+        - label: "About Page"
         name: "about"
         file: "site/content/about.yml"
         fields:
