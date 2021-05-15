@@ -14,9 +14,7 @@
         <br />
         Willow
       </h1> -->
-      <a class="w-full sm:w-1/2 lg:w-1/4" href=""
-        ><img src="~/assets/images/book-cover.png" alt="Click to purchase"
-      /></a>
+      <a class="w-full sm:w-1/2" href="/"><img src="~/assets/images/book-cover.png" alt="Click to purchase"/></a>
       <h2 class="subtitle text-center text-base leading-normal">
         <div class="flex justify-center mt-4 text-center">
           <a href="https://www.instagram.com/rebeccalouise_writes" rel="external nofollow" target="_blank">
