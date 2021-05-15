@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 seo_title: About
 preview: About the author
 seo_desc: About the author
