@@ -9,6 +9,5 @@ description: In 2019 I wrote a play for young care givers in a gorgeous theatre
   children to learn and perform. They did this for their parents, carers, and
   workers.
 cover: /img/opus-featured-1-.jpg
-gallery:
-  - /img/opus-featured-1-.jpg
+gallery: []
 ---
