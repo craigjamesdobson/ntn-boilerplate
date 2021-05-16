@@ -57,9 +57,6 @@ export default {
     ],
     __dangerouslyDisableSanitizers: ['noscript']
   },
-  googleAnalytics: {
-    id: 'G-DGQP9RD57Q'
-  },
   /*
    ** Customize the progress-bar color
    */
@@ -71,7 +68,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/vue-content-placeholders.js'],
+  plugins: ['~/plugins/vue-content-placeholders.js', '~/plugins/vue-gtag'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -79,7 +76,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxtjs/google-analytics'],
+  modules: ['@nuxt/content', 'nuxt-purgecss'],
   /*
    ** Build configuration
    */
