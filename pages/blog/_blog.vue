@@ -34,7 +34,7 @@ export default {
   methods: {
     formatDate(dateString) {
       const date = new Date(dateString)
-      return date.toLocaleDateString(process.env.lang) || ''
+      return date.toLocaleDateString(process.env.LANG) || ''
     }
   }
 }

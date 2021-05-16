@@ -140,7 +140,7 @@ export default {
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
     meta: {
       name: SITE_INFO.sitename || process.env.npm_package_name || '',
-      lang: process.env.lang,
+      lang: process.env.LANG,
       ogHost: process.env.URL,
       ogImage: '/preview.jpg'
     }
