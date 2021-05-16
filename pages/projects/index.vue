@@ -1,7 +1,7 @@
 <template>
   <main>
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="title">Other Work</h1>
+      <h1 class="title mb-4">Other Work</h1>
       <posts post-type="projects" :amount="10" />
     </section>
   </main>
