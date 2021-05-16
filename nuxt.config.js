@@ -76,7 +76,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxtjs/google-analytics'],
+  googleAnalytics: {
+    id: 'UA-197022887-1'
+  },
   /*
    ** Build configuration
    */
