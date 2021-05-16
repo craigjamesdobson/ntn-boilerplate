@@ -20,6 +20,9 @@ export default {
         : 'http://localhost:3000',
     lang: SITE_INFO.sitelang || 'en-US'
   },
+  googleAnalytics: {
+    id: 'G-DGQP9RD57Q'
+  },
   /*
    ** Headers of the page
    */
