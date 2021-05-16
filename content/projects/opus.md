@@ -1,5 +1,5 @@
 ---
-category: animals
+category: theatre
 title: Opus
 description: In 2019 I wrote a play for young care givers in a gorgeous theatre
   project working with Doorstep Arts based in Torbay. Working with the young
