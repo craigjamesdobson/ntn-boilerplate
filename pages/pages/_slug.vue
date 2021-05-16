@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-6">
     <article>
       <h1 class="mb-5">{{ page.title }}</h1>
       <hr />
