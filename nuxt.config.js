@@ -68,7 +68,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/vue-content-placeholders.js', '~/plugins/vue-gtag'],
+  plugins: ['~/plugins/vue-content-placeholders.js'],
   /*
    ** Nuxt.js dev-modules
    */
