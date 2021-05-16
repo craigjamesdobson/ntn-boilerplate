@@ -20,9 +20,6 @@ export default {
         : 'http://localhost:3000',
     lang: SITE_INFO.sitelang || 'en-US'
   },
-  googleAnalytics: {
-    id: 'G-DGQP9RD57Q'
-  },
   /*
    ** Headers of the page
    */
@@ -60,6 +57,9 @@ export default {
     ],
     __dangerouslyDisableSanitizers: ['noscript']
   },
+  googleAnalytics: {
+    id: 'G-DGQP9RD57Q'
+  },
   /*
    ** Customize the progress-bar color
    */
@@ -79,7 +79,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxtjs/google-analytics'],
   /*
    ** Build configuration
    */
