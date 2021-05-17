@@ -1,8 +1,7 @@
 {
   "name": "rebeccalouisewrites",
   "version": "2.0.1",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <sven@svenparker.com> (https://svenparker.com)",
+  "description": "The girl beneath the willow - Now available!",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
