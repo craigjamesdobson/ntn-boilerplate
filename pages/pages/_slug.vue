@@ -19,7 +19,7 @@ export default {
   async asyncData({ $content, params, error, env }) {
     try {
       // Create pages for all documents found in the pages folder
-      const siteName = env.SITE_NAME
+      const siteName = process.env.SITE_NAME
       const page = await $content('pages', params.slug).fetch()
       return {
         page,
