@@ -134,15 +134,15 @@ export default {
   },
   pwa: {
     icon: {
-      source: 'static/icon.png',
-      filename: 'icon.png'
+      source: 'static/star-icon.png',
+      filename: 'star-icon.png'
     },
     manifest: { name: SITE_INFO.sitename || process.env.npm_package_name || '', lang: process.env.lang },
     meta: {
       name: SITE_INFO.sitename || process.env.npm_package_name || '',
       lang: process.env.LANG,
       ogHost: process.env.URL,
-      ogImage: '/preview.jpg'
+      ogImage: '/book-preview.jpg'
     }
   }
 }
