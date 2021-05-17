@@ -14,8 +14,24 @@
         <br />
         Willow
       </h1> -->
-      <a class="w-full sm:w-1/2" href="/"><img src="~/assets/images/book-cover.png" alt="Click to purchase"/></a>
-      <h2 class="subtitle text-center text-base leading-normal">
+      <h2 class="text-center text-xl leading-normal">
+        <a
+          class="dark:text-white underline"
+          rel="noopener"
+          target="_blank"
+          href="https://www.amazon.co.uk/dp/1916883605?ref_=pe_3052080_397514860"
+          ><strong>Now Available!</strong> <br />
+          Click to purchase via Amazon</a
+        >
+      </h2>
+      <a
+        class="w-full sm:w-1/2"
+        href="https://www.amazon.co.uk/dp/1916883605?ref_=pe_3052080_397514860"
+        rel="noopener"
+        target="_blank"
+        ><img src="~/assets/images/book-cover.png" alt="Click to purchase"
+      /></a>
+      <h2 class="subtitle text-center text-lg leading-normal">
         <div class="flex justify-center mt-4 text-center">
           <a href="https://www.instagram.com/rebeccalouise_writes" rel="external nofollow" target="_blank">
             <component :is="`icon-instagram`" class="icon w-8 h-8 mx-2 fill-current" tabindex="0" />
